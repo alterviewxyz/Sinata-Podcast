@@ -1,35 +1,35 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  url: 'https://sinatapodcast.com',
+  title: 'پادکست سیناتا',
+  subtitle: 'پادکستی برای لذت‌بردن از اندیشیدن',
+  copyright: '© بعضی از حقوق محفوظ است.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   menu: [
     {
-      label: 'Articles',
+      label: 'قسمت‌ها',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'درباره',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'تماس',
       path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'سینا شفیع‌زاده',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'متخصص تستی',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
+      email: 'sina@sinatapodcast.com',
+      telegram: 'sinatapodcast',
+      twitter: 'sinatapodcast',
       github: '#',
       rss: '#',
       vkontakte: '#'
