@@ -3,6 +3,7 @@ node_js:
   - '10'
 install:
   - yarn install
+  - yarn build
 cache:
   directories:
     - node_modules
