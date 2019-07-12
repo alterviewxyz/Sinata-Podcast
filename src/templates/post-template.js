@@ -32,10 +32,19 @@ export const query = graphql`
         tagSlugs
       }
       frontmatter {
+        number
+        title
         date
+        category
         description
         tags
-        title
+        mp3
+        castbox
+        google_podcast
+        spotify
+        castbox_embed
+        cover
+        banner
       }
     }
   }

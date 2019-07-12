@@ -16,14 +16,16 @@ type Props = {
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date } = post.frontmatter;
+  const { tags, title, date, castbox_embed, cover} = post.frontmatter;
+  console.log(post.frontmatter);
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">All Articles</Link>
+      <Link className={styles['post__home-button']} to="/">بازگشت</Link>
 
       <div className={styles['post__content']}>
-        <Content body={html} title={title} />
+        <img className={styles['post__cover']} src={cover} alt={title} />
+        <Content body={html} title={title} castbox_embed={castbox_embed} />
       </div>
 
       <div className={styles['post__footer']}>
