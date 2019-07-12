@@ -9,7 +9,7 @@ cache:
     - node_modules
 deploy:
   provider: pages
-  skip_cleanup: false
+  skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: false
   local_dir: public
