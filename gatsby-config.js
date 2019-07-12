@@ -83,8 +83,8 @@ module.exports = {
                         mp3
                         castbox
                         google_podcast
-                        spotify: 
-                        castbox_embed:
+                        spotify:
+                        castbox_embed
                         cover
                         banner
                       }
