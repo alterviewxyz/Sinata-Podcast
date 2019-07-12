@@ -250,6 +250,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
                 </a>
               </span>
             </div>
+            <img />
             <h2
               className="feed__item-title"
             >
@@ -298,6 +299,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
                 </a>
               </span>
             </div>
+            <img />
             <h2
               className="feed__item-title"
             >

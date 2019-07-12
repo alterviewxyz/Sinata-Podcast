@@ -245,6 +245,7 @@ exports[`IndexTemplate renders correctly 1`] = `
                 </a>
               </span>
             </div>
+            <img />
             <h2
               className="feed__item-title"
             >
@@ -293,6 +294,7 @@ exports[`IndexTemplate renders correctly 1`] = `
                 </a>
               </span>
             </div>
+            <img />
             <h2
               className="feed__item-title"
             >
