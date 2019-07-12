@@ -4,9 +4,20 @@
 .feed {
   &__item {
     @include margin-bottom(1.25);
+    direction: $direction;
 
     &:last-child {
       @include margin-bottom(.5);
+    }
+
+    &-part {
+      display: inline-block;
+      &:first-child {
+        width: 70%;
+      }
+      &:last-child {
+        width: 30%;
+      }
     }
 
     &-title {
