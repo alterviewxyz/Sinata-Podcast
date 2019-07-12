@@ -33,6 +33,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
+        {console.log(data)}
         <Feed edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
@@ -64,6 +65,15 @@ export const query = graphql`
             date
             category
             description
+            seasosn
+            tags
+            mp3
+            castbox
+            google_podcast
+            spotify
+            castbox_embed
+            cover
+            banner
           }
         }
       }

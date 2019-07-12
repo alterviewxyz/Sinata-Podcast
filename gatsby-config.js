@@ -78,6 +78,15 @@ module.exports = {
                         template
                         draft
                         description
+                        seasosn
+                        tags
+                        mp3
+                        castbox
+                        google_podcast
+                        spotify: 
+                        castbox_embed:
+                        cover
+                        banner
                       }
                     }
                   }
