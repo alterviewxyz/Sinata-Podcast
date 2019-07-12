@@ -61,6 +61,7 @@ export const query = graphql`
             categorySlug
           }
           frontmatter {
+            number
             title
             date
             category

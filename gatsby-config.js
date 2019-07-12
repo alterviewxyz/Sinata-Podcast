@@ -73,6 +73,7 @@ module.exports = {
                         slug
                       }
                       frontmatter {
+                        number
                         title
                         date
                         template

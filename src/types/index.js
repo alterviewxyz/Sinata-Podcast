@@ -30,6 +30,7 @@ export type Node = {
     category?: string,
     season?: string,
     tags?: string[],
+    number: string,
     title: string,
     cover: string,
     castbox_embed: string,
