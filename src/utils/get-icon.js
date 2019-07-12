@@ -8,14 +8,26 @@ const getIcon = (name: string) => {
     case 'twitter':
       icon = ICONS.TWITTER;
       break;
-    case 'github':
-      icon = ICONS.GITHUB;
-      break;
-    case 'vkontakte':
-      icon = ICONS.VKONTAKTE;
+    case 'youtube':
+      icon = ICONS.YOUTUBE;
       break;
     case 'telegram':
       icon = ICONS.TELEGRAM;
+      break;
+    case 'googlepodcast':
+      icon = ICONS.GOOGLEPODCAST;
+      break;
+    case 'applepodcast':
+      icon = ICONS.APPLEPODCAST;
+      break;
+    case 'spotify':
+      icon = ICONS.SPOTIFY;
+      break;
+    case 'castbox':
+      icon = ICONS.CASTBOX;
+      break;
+    case 'sticher':
+      icon = ICONS.STICHER;
       break;
     case 'email':
       icon = ICONS.EMAIL;

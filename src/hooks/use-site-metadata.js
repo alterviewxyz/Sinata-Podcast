@@ -15,9 +15,13 @@ const useSiteMetadata = () => {
                 email
                 telegram
                 twitter
-                github
+                youtube
+                googlepodcast
+                applepodcast
+                spotify
+                castbox
+                sticher
                 rss
-                vkontakte
               }
             }
             menu {

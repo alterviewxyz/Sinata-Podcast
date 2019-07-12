@@ -9,11 +9,26 @@ const getContactHref = (name: string, contact: string) => {
     case 'github':
       href = `https://github.com/${contact}`;
       break;
-    case 'vkontakte':
-      href = `https://vk.com/${contact}`;
+    case 'youtube':
+      href = `https://youtube.com/${contact}`;
       break;
     case 'telegram':
-      href = `telegram:${contact}`;
+      href = `https://t.me/${contact}`;
+      break;
+    case 'googlepodcast':
+      href = `https://podcasts.google.com/?feed=${contact}`;
+      break;
+    case 'applepodcast':
+      href = `https://podcasts.apple.com/us/podcast/${contact}`;
+      break;
+    case 'spotify':
+      href = `https://open.spotify.com/show/${contact}`;
+      break;
+    case 'castbox':
+      href = `https://castbox.fm/va/${contact}`;
+      break;
+    case 'sticher':
+      href = `https://www.stitcher.com/podcast/${contact}`;
       break;
     case 'email':
       href = `mailto:${contact}`;

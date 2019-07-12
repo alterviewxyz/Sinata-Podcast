@@ -23,16 +23,20 @@ module.exports = {
     }
   ],
   author: {
-    name: 'سینا شفیع‌زاده',
+    name: 'پادکست سیناتا',
     photo: '/photo.jpg',
-    bio: 'متخصص تستی',
+    bio: 'در هر قسمت از پادکست سیناتا با روایت یک داستان داده‌محور تلاش می‌کنیم تا شما از فکر کردن بیشتر لذت ببرید.',
     contacts: {
       email: 'sina@sinatapodcast.com',
       telegram: 'sinatapodcast',
       twitter: 'sinatapodcast',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      youtube: '#',
+      googlepodcast: 'aHR0cHM6Ly9hbmNob3IuZm0vcy9hZjY2Yzg4L3BvZGNhc3QvcnNz',
+      applepodcast: '#',
+      spotify: '2HQWCqQlAyjk04IGWj0xRo',
+      castbox: '2148037',
+      sticher: 'anchor-podcasts/sinata',
+      rss: 'https://anchor.fm/s/af66c88/podcast/rss',
     }
   }
 };
