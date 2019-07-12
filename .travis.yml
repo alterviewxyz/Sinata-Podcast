@@ -2,10 +2,15 @@ language: node_js
 node_js:
   - '10'
 install:
-  - npm install
-script:
   - yarn install
-  - yarn deploy
 cache:
   directories:
     - node_modules
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: public
+  on:
+    branch: master
