@@ -11,11 +11,15 @@ exports[`PostTemplate renders correctly 1`] = `
       className="post__home-button"
       href="/"
     >
-      All Articles
+      بازگشت
     </a>
     <div
       className="post__content"
     >
+      <img
+        alt="test"
+        className="post__cover"
+      />
       <div
         className="content"
       >
@@ -31,6 +35,12 @@ exports[`PostTemplate renders correctly 1`] = `
               "__html": "<p>test</p>",
             }
           }
+        />
+        <iframe
+          frameborder="0"
+          height="500"
+          src="undefined?v=8.3.0&autoplay=0&hide_list=1"
+          width="100%"
         />
       </div>
     </div>
