@@ -22,13 +22,13 @@ export type Node = {
     slug: string,
     categorySlug?: string,
     tagSlugs?: string[]
-    seasosnSlug?: string,
+    seasonSlug?: string,
   },
   frontmatter: {
     date: string,
     description?: string,
     category?: string,
-    seasosn?: string,
+    season?: string,
     tags?: string[],
     title: string,
     cover: string,

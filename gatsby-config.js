@@ -78,7 +78,7 @@ module.exports = {
                         template
                         draft
                         description
-                        seasosn
+                        season
                         tags
                         mp3
                         castbox

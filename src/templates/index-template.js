@@ -65,7 +65,6 @@ export const query = graphql`
             date
             category
             description
-            seasosn
             tags
             mp3
             castbox
