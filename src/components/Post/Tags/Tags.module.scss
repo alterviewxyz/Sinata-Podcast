@@ -3,6 +3,8 @@
 
 .tags {
   @include margin-bottom(.5);
+  text-align: $align-left;
+  direction: $direction;
 
   &__list {
     list-style: none;

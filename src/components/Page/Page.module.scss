@@ -3,6 +3,7 @@
 
 .page {
   @include margin-bottom(2);
+  text-align: $align-left;
 
   &__inner {
     padding: 25px 20px;

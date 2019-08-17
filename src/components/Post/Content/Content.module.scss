@@ -5,6 +5,8 @@
   max-width: $layout-post-single-width;
   padding: 0 15px;
   margin: 0 auto;
+  text-align: $align-left;
+  direction: $direction;
 
   &__title {
     font-size: $typographic-base-font-size * 2;
