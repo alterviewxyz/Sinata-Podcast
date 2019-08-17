@@ -6,7 +6,7 @@ module.exports = {
   subtitle: 'پادکستی برای لذت‌بردن از اندیشیدن',
   copyright: '© بعضی از حقوق محفوظ است.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 10,
   googleAnalyticsId: '',
   menu: [
     {

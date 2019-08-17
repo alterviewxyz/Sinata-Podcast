@@ -24,7 +24,7 @@ const Feed = ({ edges }: Props) => {
                 <span className={styles['feed__item-meta-category-link']}>{edge.node.frontmatter.number}</span>
               </span>
               <span className={styles['feed__item-meta-divider']} />
-              <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('jMMMM jD, jYYYY')}>
+              <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>
                 {moment(edge.node.frontmatter.date).format('jMMMM jYYYY')}
               </time>
             </div>
