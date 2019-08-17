@@ -326,7 +326,7 @@ exports[`IndexTemplate renders correctly 1`] = `
                 />
                 <time
                   className="feed__item-meta-time"
-                  dateTime="شهریور 11, 1395"
+                  dateTime="سپتامبر 1, 2016"
                 >
                   شهریور 1395
                 </time>
@@ -380,7 +380,7 @@ exports[`IndexTemplate renders correctly 1`] = `
                 />
                 <time
                   className="feed__item-meta-time"
-                  dateTime="شهریور 11, 1395"
+                  dateTime="سپتامبر 1, 2016"
                 >
                   شهریور 1395
                 </time>
