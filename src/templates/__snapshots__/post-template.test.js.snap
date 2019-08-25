@@ -19,7 +19,17 @@ exports[`PostTemplate renders correctly 1`] = `
       <img
         alt="test"
         className="post__cover"
+        src="/media/covers/undefined/banner.jpg"
       />
+      <audio
+        controls={true}
+        preload="metadata"
+      >
+        <source
+          src="/audio/undefined.mp3"
+          type="audio/mp3"
+        />
+      </audio>
       <div
         className="content"
       >
@@ -38,7 +48,7 @@ exports[`PostTemplate renders correctly 1`] = `
         />
         <iframe
           frameborder="0"
-          height="500"
+          height="200"
           src="undefined?v=8.3.0&autoplay=0&hide_list=1"
           width="100%"
         />
@@ -101,7 +111,7 @@ exports[`PostTemplate renders correctly 1`] = `
             <strong>
               Test name
             </strong>
-             on Twitter
+             در توییتر
           </a>
         </p>
       </div>

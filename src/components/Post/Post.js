@@ -24,7 +24,10 @@ const Post = ({ post }: Props) => {
       <Link className={styles['post__home-button']} to="/">بازگشت</Link>
 
       <div className={styles['post__content']}>
-        <img className={styles['post__cover']} src={cover} alt={title} />
+        <img className={styles['post__cover']} src={`/media/covers/${cover}/banner.jpg`} alt={title} />
+        <audio controls preload="metadata">
+          <source src={`/audio/${cover}.mp3`} type="audio/mp3" />
+        </audio>
         <Content body={html} title={title} castbox_embed={castbox_embed} />
       </div>
 

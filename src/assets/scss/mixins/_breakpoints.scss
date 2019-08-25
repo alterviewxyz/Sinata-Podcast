@@ -2,7 +2,7 @@
  * Breakpoints
  */
 
-@mixin breakpoint-xs {
+ @mixin breakpoint-xs {
     @content;
 }
 
@@ -20,6 +20,24 @@
 
 @mixin breakpoint-lg {
     @media screen and (min-width: $layout-breakpoint-lg) {
+        @content;
+    }
+}
+
+@mixin breakpoint-max-sm {
+    @media screen and (max-width: $layout-breakpoint-sm) {
+        @content;
+    }
+}
+
+@mixin breakpoint-max-md {
+    @media screen and (max-width: $layout-breakpoint-md) {
+        @content;
+    }
+}
+
+@mixin breakpoint-max-lg {
+    @media screen and (max-width: $layout-breakpoint-lg) {
         @content
     }
 }

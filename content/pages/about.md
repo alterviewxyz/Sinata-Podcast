@@ -1,12 +1,28 @@
 ---
-title: "About me"
+title: "درباره سیناتا"
 template: "page"
 ---
+پادکست سیناتا به پیشنهاد مهراد و به یکباره در خرداد ماه ۱۳۹۸ متولد شد. بعد از آن تلاش کردیم تا یک موضوع روزمره رو با نگاهی داده محور و با روش شناسی های مختلف بررسی کنیم و نتیجه این کنجکاوی ها و لذت های تفکر کردن رو هر دو هفته یکبار با شما به اشتراک بگذاریم.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
-
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
-
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
-
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+<div class="teampersons">
+<div class="teamperson">
+    <img src="/media/team/sina.png" alt="">
+    <h3> سینا شفیع‌زاده </h3>
+    <p> صدایی که توی پادکست می شنوید صدای سینا است. </p>
+</div>
+<div class="teamperson">
+    <img src="/media/team/mehrad.png" alt="">
+    <h3> مهراد روستا </h3>
+    <p> سایتی که الان دارید این مطلب رو داخلش می خوانید شاهکار مهراد است. </p>
+</div>
+<div class="teamperson">
+    <img src="/media/team/nima.png" alt="">
+    <h3> نیما شفیع‌زاده </h3>
+    <p>نیما توی تولید و انتشار محتواها کمک می کنه. </p>
+</div>
+<div class="teamperson">
+    <img src="/media/team/sasan.png" alt="">
+    <h3> ساسان </h3>
+    <p>ضبط و بررسی کیفیت صدا به عهده ساسان است.</p>
+</div>
+</div>

@@ -40,6 +40,7 @@
     "disqus"
   ],
   "dependencies": {
+    "@statickit/react": "^1.0.0-beta.2",
     "bluebird": "^3.5.5",
     "classnames": "^2.2.6",
     "codecov": "^3.5.0",
@@ -68,6 +69,7 @@
     "gatsby-source-filesystem": "^2.0.39",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.21",
+    "howler": "^2.1.2",
     "invariant": "^2.2.4",
     "katex": "^0.10.2",
     "lodash": "^4.17.11",

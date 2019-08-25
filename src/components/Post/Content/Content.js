@@ -12,7 +12,7 @@ const Content = ({ body, title, castbox_embed}: Props) => (
   <div className={styles['content']}>
     <h1 className={styles['content__title']}>{title}</h1>
     <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
-    <iframe src={`${castbox_embed}?v=8.3.0&autoplay=0&hide_list=1`} frameborder="0" width="100%" height="500"></iframe>
+    <iframe src={`${castbox_embed}?v=8.3.0&autoplay=0&hide_list=1`} frameborder="0" width="100%" height="200"></iframe>
   </div>
 );
 

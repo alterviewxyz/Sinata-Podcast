@@ -189,7 +189,7 @@ exports[`NotFoundTemplate renders correctly 1`] = `
           >
             <a
               className="contacts__list-item-link"
-              href="https://podcasts.apple.com/us/podcast/#"
+              href="https://podcasts.apple.com/us/podcast/sinata-%D8%B3%DB%8C%D9%86%D8%A7%D8%AA%D8%A7/id1466430719"
               rel="noopener noreferrer"
               target="_blank"
             >

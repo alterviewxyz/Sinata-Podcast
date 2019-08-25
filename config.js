@@ -5,9 +5,9 @@ module.exports = {
   title: 'پادکست سیناتا',
   subtitle: 'پادکستی برای لذت‌بردن از اندیشیدن',
   copyright: '© بعضی از حقوق محفوظ است.',
-  disqusShortname: '',
+  disqusShortname: 'sinata',
   postsPerPage: 10,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-116837877-2',
   menu: [
     {
       label: 'قسمت‌ها',
@@ -20,6 +20,10 @@ module.exports = {
     {
       label: 'تماس',
       path: '/pages/contacts'
+    },
+    {
+      label: 'اسپانسرشیپ',
+      path: '/pages/sponsor'
     }
   ],
   author: {
@@ -32,7 +36,7 @@ module.exports = {
       twitter: 'sinatapodcast',
       youtube: '#',
       googlepodcast: 'aHR0cHM6Ly9hbmNob3IuZm0vcy9hZjY2Yzg4L3BvZGNhc3QvcnNz',
-      applepodcast: '#',
+      applepodcast: 'sinata-%D8%B3%DB%8C%D9%86%D8%A7%D8%AA%D8%A7/id1466430719',
       spotify: '2HQWCqQlAyjk04IGWj0xRo',
       castbox: '2148037',
       sticher: 'anchor-podcasts/sinata',

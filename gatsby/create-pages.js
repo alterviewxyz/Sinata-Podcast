@@ -63,6 +63,13 @@ const createPages = async ({ graphql, actions }) => {
         context: { slug: edge.node.fields.slug }
       });
     }
+    else if (_.get(edge, 'node.frontmatter.template') === 'contactpage') {
+      createPage({
+        path: edge.node.fields.slug,
+        component: path.resolve('./src/templates/contactpage-template.js'),
+        context: { slug: edge.node.fields.slug }
+      });
+    }
   });
 
   // Feeds

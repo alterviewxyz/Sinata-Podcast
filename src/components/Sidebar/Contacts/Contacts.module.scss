@@ -6,13 +6,13 @@
 
   &__list {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row-reverse wrap;
     flex-grow: 0;
     flex-shrink: 0;
     list-style: none;
     padding: 0;
-    margin: 10px -3px;
-    width: 240px;
+    // margin: 10px -3px;
+    width: 16rem;
 
     &-item {
       padding: 0;

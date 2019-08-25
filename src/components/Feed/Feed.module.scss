@@ -3,8 +3,27 @@
 
 .feed {
   &__item {
-    @include margin-bottom(1.25);
+    display: grid;
+    grid-template-columns: 5% 30% 65%;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". . .";
+    @include breakpoint-max-sm  {
+      grid-template-columns: 1fr;
+      grid-template-rows: 40px 1fr 1min-content;
+      grid-template-areas: "." "." ".";
+      max-width: 450px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @include margin-top(1.25);
     direction: $direction;
+    border-width: $card-border-width;
+    border-color: $card-border-color;
+    border-radius: $border-radius;
+    border-style: solid;
+    box-shadow: $card-shadow;
+    background-color: $color-white;
 
     &:last-child {
       @include margin-bottom(.5);
@@ -12,19 +31,28 @@
 
     &-part {
       display: inline-block;
-      &:first-child {
-        width: 70%;
+
+      &:nth-child(2) {
+        vertical-align: top;
+        img {
+          min-height: 190px;
+        }
       }
-      &:last-child {
-        width: 30%;
-      }
+ 
     }
 
     &-title {
       font-size: $typographic-base-font-size * 1.6875;
       @include line-height(1.5);
       @include margin-top(0);
-      @include margin-bottom(.5);
+      @include margin-bottom(0);
+      @include padding(0,0.5);
+
+      @include breakpoint-max-sm  {
+        text-align: center;
+        @include margin-top(0.3);
+      }
+
 
       &-link {
         color: $color-base;
@@ -42,25 +70,39 @@
     &-description {
       font-size: $typographic-base-font-size;
       @include line-height(1);
-      @include margin-bottom(.75);
+      // @include margin-bottom(.75);
+      @include padding(0,0.5);
     }
 
     &-meta {
+      // @include padding(0.3,0.5);
       &-time {
         font-size: $typographic-small-font-size;
         color: $color-base;
         font-weight: 600;
         text-transform: uppercase;
-      }
 
-      &-divider {
-        margin: 0 5px;
+        width: 80px;
+        transform: rotate(90deg) translate(90px, -23px);
+        position: absolute;
+        display: block;
+
+        @include breakpoint-max-sm  {
+          display: none;
+        }
       }
 
       &-category {
         &-link {
           font-size: $typographic-small-font-size;
           color: $color-secondary;
+
+          font-size: 26px;
+          background-color: rgb(5, 3, 3);
+          height: 40px;
+          text-align: center;
+          line-height: 45px;
+          
           font-weight: 600;
           text-transform: uppercase;
 
