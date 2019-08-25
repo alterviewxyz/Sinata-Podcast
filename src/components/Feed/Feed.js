@@ -67,7 +67,7 @@ const Feed = ({ edges }: Props) => {
               {/* <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>مشاهده</Link> */}
             </div>
           </div>
-          <div className={styles['feed__item-part']}>
+          <div>
             <audio controls preload="metadata">
               <source src={`/audio/${edge.node.frontmatter.cover}.mp3`} type="audio/mp3" />
             </audio>
