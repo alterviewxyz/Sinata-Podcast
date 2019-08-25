@@ -36,7 +36,9 @@ exports[`Feed renders correctly 1`] = `
     <div
       className="feed__item-part"
     >
-      <img />
+      <img
+        src="/media/covers/undefined/cover.jpg"
+      />
     </div>
     <div
       className="feed__item-part"
@@ -90,7 +92,9 @@ exports[`Feed renders correctly 1`] = `
     <div
       className="feed__item-part"
     >
-      <img />
+      <img
+        src="/media/covers/undefined/cover.jpg"
+      />
     </div>
     <div
       className="feed__item-part"
