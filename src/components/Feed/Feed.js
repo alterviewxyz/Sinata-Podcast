@@ -32,7 +32,7 @@ const Feed = ({ edges }: Props) => {
             </div>
           </div>
           <div className={styles['feed__item-part']}>
-            <img src={edge.node.frontmatter.cover}/>
+            <img src={`/media/covers/${edge.node.frontmatter.cover}/cover.jpg`}/>
           </div>
           <div className={styles['feed__item-part']}>
             <h2 className={styles['feed__item-title']}>
