@@ -5,9 +5,9 @@ module.exports = {
   title: 'پادکست سیناتا',
   subtitle: 'پادکستی برای لذت‌بردن از اندیشیدن',
   copyright: '© بعضی از حقوق محفوظ است.',
-  disqusShortname: '',
+  disqusShortname: 'sinata',
   postsPerPage: 10,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-116837877-2',
   menu: [
     {
       label: 'قسمت‌ها',
