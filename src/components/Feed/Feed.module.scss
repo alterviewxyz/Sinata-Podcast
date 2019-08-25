@@ -16,7 +16,7 @@
       margin-left: auto;
     }
 
-    @include margin-bottom(1.25);
+    @include margin-top(1.25);
     direction: $direction;
     border-width: $card-border-width;
     border-color: $card-border-color;
