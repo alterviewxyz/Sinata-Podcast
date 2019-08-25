@@ -20,6 +20,10 @@ module.exports = {
     {
       label: 'تماس',
       path: '/pages/contacts'
+    },
+    {
+      label: 'اسپانسرشیپ',
+      path: '/pages/sponsor'
     }
   ],
   author: {
