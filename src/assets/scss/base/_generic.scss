@@ -372,6 +372,12 @@ table {
 	transform: rotate(0deg) translateX(50%);
 }
 
+audio {
+  width: 100%;
+  transition:all 0.5s linear;
+  vertical-align: bottom;
+}
+
 @include breakpoint-sm {
   figure.float-left,
   figure.float-right {
