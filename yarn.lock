@@ -1130,6 +1130,11 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
+"@statickit/react@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@statickit/react/-/react-1.0.0-beta.2.tgz#2b14660837e55262b87e14ce599e3febd5304030"
+  integrity sha512-/9kDsB0RSw/lsAcVucmWSp6w+G328/JV6J0/dywD7U8Was3zd/F3y7PtWRgmbnVyGL2VxrvxiSxmPjU/e+Fkkw==
+
 "@stefanprobst/lokijs@^1.5.6-b":
   version "1.5.6-b"
   resolved "https://registry.yarnpkg.com/@stefanprobst/lokijs/-/lokijs-1.5.6-b.tgz#6a36a86dbe132e702e6b15ffd3ce4139aebfe942"

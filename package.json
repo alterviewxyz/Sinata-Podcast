@@ -40,6 +40,7 @@
     "disqus"
   ],
   "dependencies": {
+    "@statickit/react": "^1.0.0-beta.2",
     "bluebird": "^3.5.5",
     "classnames": "^2.2.6",
     "codecov": "^3.5.0",
