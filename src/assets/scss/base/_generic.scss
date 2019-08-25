@@ -377,6 +377,20 @@ audio {
   transition:all 0.5s linear;
   vertical-align: bottom;
 }
+.teampersons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: center;
+  .teamperson {
+    width: 9rem;
+    h3 {
+      margin: 5px;
+    }
+  }
+}
 
 @include breakpoint-sm {
   figure.float-left,
