@@ -84,7 +84,7 @@ module.exports = {
                         mp3
                         castbox
                         google_podcast
-                        spotify:
+                        spotify
                         castbox_embed
                         cover
                         banner
@@ -196,6 +196,11 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-flow',
+    'gatsby-plugin-flow',{
+      resolve: 'gatsby-source-anchor',
+      options: {
+        rss: 'https://anchor.fm/s/af66c88/podcast/rss',
+      },
+    },
   ]
 };
