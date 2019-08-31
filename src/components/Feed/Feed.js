@@ -68,9 +68,10 @@ const Feed = ({ edges }: Props) => {
             </div>
           </div>
           <div>
-            <audio controls preload="metadata">
+            {/* <audio controls preload="metadata">
               <source src={`/audio/${edge.node.frontmatter.cover}.mp3`} type="audio/mp3" />
-            </audio>
+            </audio> */}
+            <iframe src={`https://anchor.fm/sinata/embed/episodes${edge.node.frontmatter.anchor}`} height="100%" width="100%" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
       ))}

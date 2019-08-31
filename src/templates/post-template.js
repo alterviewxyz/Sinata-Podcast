@@ -43,6 +43,7 @@ export const query = graphql`
         google_podcast
         spotify
         castbox_embed
+        anchor
         cover
         banner
       }

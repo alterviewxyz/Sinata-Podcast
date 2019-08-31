@@ -95,10 +95,10 @@
       &-category {
         &-link {
           font-size: $typographic-small-font-size;
-          color: $color-secondary;
+          color: $color-white;
 
           font-size: 26px;
-          background-color: rgb(5, 3, 3);
+          background-color:$color-secondary;
           height: 40px;
           text-align: center;
           line-height: 45px;
@@ -108,7 +108,7 @@
 
           &:hover,
           &:focus {
-            color: $color-primary;
+            color: $color-white;
           }
 
         }
