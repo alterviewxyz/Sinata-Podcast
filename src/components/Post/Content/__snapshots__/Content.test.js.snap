@@ -17,11 +17,5 @@ exports[`Content renders correctly 1`] = `
       }
     }
   />
-  <iframe
-    frameborder="0"
-    height="200"
-    src="undefined?v=8.3.0&autoplay=0&hide_list=1"
-    width="100%"
-  />
 </div>
 `;

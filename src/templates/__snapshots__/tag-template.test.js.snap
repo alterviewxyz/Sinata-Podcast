@@ -368,15 +368,13 @@ exports[`TagTemplate renders correctly 1`] = `
               </div>
             </div>
             <div>
-              <audio
-                controls={true}
-                preload="metadata"
-              >
-                <source
-                  src="/audio/undefined.mp3"
-                  type="audio/mp3"
-                />
-              </audio>
+              <iframe
+                frameborder="0"
+                height="100%"
+                scrolling="no"
+                src="https://anchor.fm/sinata/embed/episodesundefined"
+                width="100%"
+              />
             </div>
           </div>
           <div>
@@ -437,15 +435,13 @@ exports[`TagTemplate renders correctly 1`] = `
               </div>
             </div>
             <div>
-              <audio
-                controls={true}
-                preload="metadata"
-              >
-                <source
-                  src="/audio/undefined.mp3"
-                  type="audio/mp3"
-                />
-              </audio>
+              <iframe
+                frameborder="0"
+                height="100%"
+                scrolling="no"
+                src="https://anchor.fm/sinata/embed/episodesundefined"
+                width="100%"
+              />
             </div>
           </div>
         </div>
