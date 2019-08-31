@@ -33,7 +33,7 @@ module.exports = {
           twitter: 'sinatapodcast',
           youtube: '#',
           googlepodcast: 'aHR0cHM6Ly9hbmNob3IuZm0vcy9hZjY2Yzg4L3BvZGNhc3QvcnNz',
-          applepodcast: '#',
+          applepodcast: 'sinata-%D8%B3%DB%8C%D9%86%D8%A7%D8%AA%D8%A7/id1466430719',
           spotify: '2HQWCqQlAyjk04IGWj0xRo',
           castbox: '2148037',
           sticher: 'anchor-podcasts/sinata',
