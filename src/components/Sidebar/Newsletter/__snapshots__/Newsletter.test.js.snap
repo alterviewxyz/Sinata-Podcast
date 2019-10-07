@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Newsletter renders correctly 1`] = `
+<section
+  className="gradient-gray"
+  id="signup"
+>
+  <div
+    className="ml-subscribe-form ml-subscribe-form-1484552"
+    id="mlb2-1484552"
+  >
+    <div
+      className="ml-vertical-align-center"
+    >
+      <div
+        className="subscribe-form ml-block-success"
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        <div
+          className="form-section"
+        >
+          <p>
+            ثبت‌نام با موفقیت انجام شد!
+          </p>
+        </div>
+      </div>
+      <form
+        action="https://landing.mailerlite.com/webforms/submit/v1b1m4"
+        className="ml-block-form"
+        data-code="v1b1m4"
+        data-id="v1b1m4"
+        method="POST"
+        target="_blank"
+      >
+        <span
+          className="signup-title"
+        >
+          خبرنامه
+        </span>
+        <div
+          className="subscribe-form"
+        >
+          <div
+            className="form-section"
+          >
+            <div
+              className="form-group ml-field-email ml-validate-required ml-validate-email"
+            >
+              <input
+                autoCapitalize="off"
+                autoComplete="email"
+                autoCorrect="off"
+                className="form-control signup-text"
+                name="fields[email]"
+                placeholder="آدرس ایمیل"
+                spellCheck="false"
+                type="email"
+              />
+              <input
+                name="ml-submit"
+                type="hidden"
+                value="1"
+              />
+              <button
+                className="primary signup-button"
+                type="submit"
+              >
+                ثبت
+              </button>
+              <button
+                className="loading"
+                disabled={true}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+                type="button"
+              >
+                در حال ثبت
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+`;
