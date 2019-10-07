@@ -1,5 +1,5 @@
 // @flow
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Newsletter.module.scss";
 
 type Props = {
@@ -7,22 +7,24 @@ type Props = {
 };
 
 const Newsletter = ({  }: Props) => {
-  const js = `
-  function ml_webform_success_1484552() {
-    var $ = ml_jQuery || jQuery;
-    $('.ml-subscribe-form-1484552 .ml-block-success').show();
-    $('.ml-subscribe-form-1484552 .ml-block-form').hide();
-  };
-`;
-  const script = document.createElement("script");
-  const scriptText = document.createTextNode(js);
-  script.appendChild(scriptText);
-  document.body.appendChild(script);
+  useEffect(() => {
+    const js = `
+    function ml_webform_success_1484552() {
+      var $ = ml_jQuery || jQuery;
+      $('.ml-subscribe-form-1484552 .ml-block-success').show();
+      $('.ml-subscribe-form-1484552 .ml-block-form').hide();
+    };
+  `;
+    const script = document.createElement("script");
+    const scriptText = document.createTextNode(js);
+    script.appendChild(scriptText);
+    document.body.appendChild(script);
 
-  const script2 = document.createElement("script");
-  script2.src =
-    "https://static.mailerlite.com/js/w/webforms.min.js?vd890ed88b3a28c805acc70e1a88fa27c";
-  document.body.appendChild(script2);
+    const script2 = document.createElement("script");
+    script2.src =
+      "https://static.mailerlite.com/js/w/webforms.min.js?vd890ed88b3a28c805acc70e1a88fa27c";
+    document.body.appendChild(script2);
+  }, []);
   return (
     <section id="signup" className="gradient-gray">
       <div id="mlb2-1484552" className="ml-subscribe-form ml-subscribe-form-1484552">
