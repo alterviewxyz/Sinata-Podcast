@@ -34,7 +34,7 @@ module.exports = {
       email: 'sina@sinatapodcast.com',
       telegram: 'sinatapodcast',
       twitter: 'sinatapodcast',
-      youtube: '#',
+      youtube: 'https://www.youtube.com/channel/UC2IBo0ZmLSGKcx-_9kLuJ1Q',
       googlepodcast: 'aHR0cHM6Ly9hbmNob3IuZm0vcy9hZjY2Yzg4L3BvZGNhc3QvcnNz',
       applepodcast: 'sinata-%D8%B3%DB%8C%D9%86%D8%A7%D8%AA%D8%A7/id1466430719',
       spotify: '2HQWCqQlAyjk04IGWj0xRo',
