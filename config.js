@@ -6,7 +6,7 @@ module.exports = {
   subtitle: 'پادکستی برای لذت‌بردن از اندیشیدن',
   copyright: '© بعضی از حقوق محفوظ است.',
   disqusShortname: 'sinata',
-  postsPerPage: 10,
+  postsPerPage: 3,
   googleAnalyticsId: 'UA-116837877-2',
   menu: [
     {
