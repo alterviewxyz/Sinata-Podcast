@@ -13,49 +13,70 @@ exports[`Post renders correctly 1`] = `
   <div
     className="post__content"
   >
-    <img
-      alt="test"
-      className="post__cover"
-      src="/media/covers/undefined/banner.jpg"
-    />
-    <iframe
-      frameborder="0"
-      height="100%"
-      scrolling="no"
-      src="https://anchor.fm/sinata/embed/episodesundefined"
-      width="100%"
-    />
+    <h1
+      className="post__title"
+    >
+      test
+    </h1>
     <div
       className="content"
     >
-      <h1
-        className="content__title"
-      >
-        test
-      </h1>
       <div
-        className="content__body"
-        dangerouslySetInnerHTML={
-          Object {
-            "__html": "<p>test</p>",
+        className="content__card"
+      >
+        <span
+          className="content__cardtitle"
+        >
+          پادکست
+        </span>
+        <img
+          className="content__cover"
+          src="/media/covers/undefined/banner.jpg"
+        />
+        <iframe
+          frameBorder="0"
+          height="100%"
+          scrolling="no"
+          src="https://anchor.fm/sinata/embed/episodesundefined"
+          style={
+            Object {
+              "height": "100px",
+            }
           }
-        }
-      />
+          width="100%"
+        />
+      </div>
+      <div
+        className="content__card"
+      >
+        <span
+          className="content__cardtitle"
+        >
+          وادکست
+        </span>
+      </div>
+      <div
+        className="content__card"
+      >
+        <span
+          className="content__cardtitle"
+        >
+          متن قسمت
+        </span>
+        <div
+          className="content__body"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<p>test</p>",
+            }
+          }
+        />
+      </div>
     </div>
   </div>
   <div
     className="post__footer"
   >
-    <div
-      className="meta"
-    >
-      <p
-        className="meta__date"
-      >
-        Published 
-        1 Sep 2016
-      </p>
-    </div>
     <div
       className="tags"
     >
@@ -83,26 +104,6 @@ exports[`Post renders correctly 1`] = `
           </a>
         </li>
       </ul>
-    </div>
-    <div
-      className="author"
-    >
-      <p
-        className="author__bio"
-      >
-        Test bio
-        <a
-          className="author__bio-twitter"
-          href="https://www.twitter.com/sinatapodcast"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <strong>
-            Test name
-          </strong>
-           در توییتر
-        </a>
-      </p>
     </div>
   </div>
   <div

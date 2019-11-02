@@ -2,12 +2,18 @@
 @import '../../assets/scss/mixins';
 
 .post {
-  &__cover {
-    margin: 0 auto;
-    max-width: 100%;
-    width: 100%;
-    margin-top: 12px;
+  &__title {
+    font-size: $typographic-base-font-size * 2;
+    max-width: $layout-post-width;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    text-align: center;
+    @include line-height(1.65);
+    @include margin-top(1);
+    @include margin-bottom(0);
   }
+
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
@@ -40,12 +46,17 @@
     &:focus {
       color: $color-primary;
     }
-
   }
-
 }
 
 @include breakpoint-md {
+  &__title {
+    font-size: $typographic-base-font-size * 3;
+    @include line-height(2.25);
+    @include margin-top(2.25);
+    @include margin-bottom(1.5);
+  }
+
   .post {
     &__footer {
       padding: 0;
@@ -60,9 +71,7 @@
       max-width: auto;
       margin: 0;
       top: 30px;
-      left: 30px
+      left: 30px;
     }
-
   }
-
 }

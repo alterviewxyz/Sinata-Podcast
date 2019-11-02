@@ -5,7 +5,7 @@ export type RenderCallback = (data: any) => ReactNode;
 
 export type Entry = (string[]) => string;
 
-export type WidgetFor = (string) => string;
+export type WidgetFor = string => string;
 
 export type PageContext = {
   tag: string,
@@ -21,8 +21,8 @@ export type Node = {
   fields: {
     slug: string,
     categorySlug?: string,
-    tagSlugs?: string[]
-    seasonSlug?: string,
+    tagSlugs?: string[],
+    seasonSlug?: string
   },
   frontmatter: {
     date: string,
@@ -39,9 +39,10 @@ export type Node = {
     castbox: string,
     google_podcast: string,
     spotify: string,
+    youtube: string,
     anchor: string,
     cover: string,
-    banner: string,
+    banner: string
   },
   html: string,
   id: string
@@ -55,7 +56,7 @@ export type Edges = Array<Edge>;
 
 export type AllMarkdownRemark = {
   allMarkdownRemark: {
-    edges: Edges,
+    edges: Edges
   },
   group: {
     fieldValue: string,

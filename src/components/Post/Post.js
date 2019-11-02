@@ -16,26 +16,31 @@ type Props = {
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date, castbox_embed, cover, anchor} = post.frontmatter;
-  console.log(post.frontmatter);
+  const { tags, title, date, castbox_embed, cover, anchor, youtube } = post.frontmatter;
+  console.log({ youtube });
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">بازگشت</Link>
+      <Link className={styles['post__home-button']} to="/">
+        بازگشت
+      </Link>
 
       <div className={styles['post__content']}>
-        <img className={styles['post__cover']} src={`/media/covers/${cover}/banner.jpg`} alt={title} />
-        {/* <audio controls preload="metadata">
-          <source src={`/audio/${cover}.mp3`} type="audio/mp3" />
-        </audio> */}
-        <iframe src={`https://anchor.fm/sinata/embed/episodes${anchor}`} height="100%" width="100%" frameborder="0" scrolling="no"></iframe>
-        <Content body={html} title={title} castbox_embed={castbox_embed} />
+        <h1 className={styles['post__title']}>{title}</h1>
+        <Content
+          body={html}
+          title={cover}
+          cover={cover}
+          castboxEmbed={castbox_embed}
+          youtube={youtube}
+          anchor={anchor}
+        />
       </div>
 
       <div className={styles['post__footer']}>
-        <Meta date={date} />
+        {/* <Meta date={date} /> */}
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
-        <Author />
+        {/* <Author /> */}
       </div>
 
       <div className={styles['post__comments']}>
