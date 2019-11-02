@@ -2,6 +2,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Post from '../components/Post';
+import Sidebar from '../components/Sidebar';
+import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 
@@ -16,11 +18,13 @@ const PostTemplate = ({ data }: Props) => {
 
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
-      <Post post={data.markdownRemark} />
+      <Sidebar isIndex />
+      <Page>
+        <Post post={data.markdownRemark} />
+      </Page>
     </Layout>
   );
 };
-
 
 export const query = graphql`
   query PostBySlug($slug: String!) {
@@ -43,6 +47,7 @@ export const query = graphql`
         google_podcast
         spotify
         castbox_embed
+        youtube
         anchor
         cover
         banner
@@ -50,6 +55,5 @@ export const query = graphql`
     }
   }
 `;
-
 
 export default PostTemplate;

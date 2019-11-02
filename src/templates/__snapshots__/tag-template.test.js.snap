@@ -457,15 +457,7 @@ exports[`TagTemplate renders correctly 1`] = `
                 </p>
               </div>
             </div>
-            <div>
-              <iframe
-                frameborder="0"
-                height="100%"
-                scrolling="no"
-                src="https://anchor.fm/sinata/embed/episodesundefined"
-                width="100%"
-              />
-            </div>
+            <div />
           </div>
           <div>
             <div
@@ -524,15 +516,7 @@ exports[`TagTemplate renders correctly 1`] = `
                 </p>
               </div>
             </div>
-            <div>
-              <iframe
-                frameborder="0"
-                height="100%"
-                scrolling="no"
-                src="https://anchor.fm/sinata/embed/episodesundefined"
-                width="100%"
-              />
-            </div>
+            <div />
           </div>
         </div>
         <div
@@ -546,7 +530,7 @@ exports[`TagTemplate renders correctly 1`] = `
               href="/page/1"
               rel="prev"
             >
-              → قبلی
+              → بعدتر
             </a>
           </div>
           <div
@@ -557,7 +541,7 @@ exports[`TagTemplate renders correctly 1`] = `
               href="/page/3"
               rel="next"
             >
-              بعدی ←
+              قبل‌تر ←
             </a>
           </div>
         </div>

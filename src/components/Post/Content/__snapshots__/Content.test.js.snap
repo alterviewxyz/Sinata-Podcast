@@ -4,18 +4,57 @@ exports[`Content renders correctly 1`] = `
 <div
   className="content"
 >
-  <h1
-    className="content__title"
-  >
-    test
-  </h1>
   <div
-    className="content__body"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<p>test</p>",
+    className="content__card"
+  >
+    <span
+      className="content__cardtitle"
+    >
+      پادکست
+    </span>
+    <img
+      alt="test"
+      className="content__cover"
+      src="/media/covers/undefined/banner.jpg"
+    />
+    <iframe
+      frameBorder="0"
+      height="100%"
+      scrolling="no"
+      src="https://anchor.fm/sinata/embed/episodesundefined"
+      style={
+        Object {
+          "height": "100px",
+        }
       }
-    }
-  />
+      width="100%"
+    />
+  </div>
+  <div
+    className="content__card"
+  >
+    <span
+      className="content__cardtitle"
+    >
+      وادکست
+    </span>
+  </div>
+  <div
+    className="content__card"
+  >
+    <span
+      className="content__cardtitle"
+    >
+      متن قسمت
+    </span>
+    <div
+      className="content__body"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<p>test</p>",
+        }
+      }
+    />
+  </div>
 </div>
 `;
