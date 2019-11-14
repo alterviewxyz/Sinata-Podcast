@@ -1,7 +1,7 @@
 // @flow
 import React, { useEffect, useState } from 'react';
 import moment from 'moment-jalaali';
-moment.loadPersian({ usePersianDigits: true });
+moment.loadPersian({ usePersianDigits: true, dialect: 'persian-modern' });
 import { Link } from 'gatsby';
 // import { Howl, Howler } from 'howler';
 import type { Edges } from '../../types';
