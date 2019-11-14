@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Samim;
+    src: url('Samim.eot');
+    src: url('Samim.eot?#iefix') format('embedded-opentype'),
+    url('Samim.woff') format('woff'),
+    url('Samim.ttf') format('truetype');
+    font-weight: normal;
+}
+
+ @font-face {
+    font-family: Samim;
+    src: url('Samim-Bold.eot');
+    src: url('Samim-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Samim-Bold.woff') format('woff'),
+    url('Samim-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+ @font-face {
+    font-family: Samim;
+    src: url('Samim-Black.eot');
+    src: url('Samim-Black.eot?#iefix') format('embedded-opentype'),
+    url('Samim-Black.woff') format('woff'),
+    url('Samim-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+    url('Vazir.woff') format('woff'),
+    url('Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+ @font-face {
+    font-family: Vazir;
+    src: url('Vazir-Bold.eot');
+    src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Vazir-Bold.woff') format('woff'),
+    url('Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+ @font-face {
+    font-family: Vazir;
+    src: url('Vazir-Black.eot');
+    src: url('Vazir-Black.eot?#iefix') format('embedded-opentype'),
+    url('Vazir-Black.woff') format('woff'),
+    url('Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+}
