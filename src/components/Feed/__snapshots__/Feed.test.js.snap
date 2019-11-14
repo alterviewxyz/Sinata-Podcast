@@ -5,122 +5,130 @@ exports[`Feed renders correctly 1`] = `
   className="feed"
 >
   <div>
-    <div
-      className="feed__item"
+    <a
+      href="/test_0"
     >
       <div
-        className="feed__item-part"
+        className="feed__item"
       >
         <div
-          className="feed__item-meta"
+          className="feed__item-part"
         >
           <div
-            className="feed__item-meta-category"
+            className="feed__item-meta"
+          >
+            <div
+              className="feed__item-meta-category"
+            >
+              <a
+                className="feed__item-title-link"
+                href="/test_0"
+              >
+                <div
+                  className="feed__item-meta-category-link"
+                />
+              </a>
+            </div>
+            <time
+              className="feed__item-meta-time"
+              dateTime="سپتامبر ۱، ۲۰۱۶"
+            >
+              شهریور ۹۵
+            </time>
+          </div>
+        </div>
+        <div
+          className="feed__item-part"
+        >
+          <img
+            src="/media/covers/undefined/cover.jpg"
+          />
+        </div>
+        <div
+          className="feed__item-part"
+        >
+          <h2
+            className="feed__item-title"
           >
             <a
               className="feed__item-title-link"
               href="/test_0"
             >
-              <div
-                className="feed__item-meta-category-link"
-              />
+              test_0
             </a>
-          </div>
-          <time
-            className="feed__item-meta-time"
-            dateTime="سپتامبر ۱، ۲۰۱۶"
-          >
-            شهریور ۹۵
-          </time>
-        </div>
-      </div>
-      <div
-        className="feed__item-part"
-      >
-        <img
-          src="/media/covers/undefined/cover.jpg"
-        />
-      </div>
-      <div
-        className="feed__item-part"
-      >
-        <h2
-          className="feed__item-title"
-        >
-          <a
-            className="feed__item-title-link"
-            href="/test_0"
+          </h2>
+          <p
+            className="feed__item-description"
           >
             test_0
-          </a>
-        </h2>
-        <p
-          className="feed__item-description"
-        >
-          test_0
-        </p>
+          </p>
+        </div>
       </div>
-    </div>
-    <div />
+      <div />
+    </a>
   </div>
   <div>
-    <div
-      className="feed__item"
+    <a
+      href="/test_1"
     >
       <div
-        className="feed__item-part"
+        className="feed__item"
       >
         <div
-          className="feed__item-meta"
+          className="feed__item-part"
         >
           <div
-            className="feed__item-meta-category"
+            className="feed__item-meta"
+          >
+            <div
+              className="feed__item-meta-category"
+            >
+              <a
+                className="feed__item-title-link"
+                href="/test_1"
+              >
+                <div
+                  className="feed__item-meta-category-link"
+                />
+              </a>
+            </div>
+            <time
+              className="feed__item-meta-time"
+              dateTime="سپتامبر ۱، ۲۰۱۶"
+            >
+              شهریور ۹۵
+            </time>
+          </div>
+        </div>
+        <div
+          className="feed__item-part"
+        >
+          <img
+            src="/media/covers/undefined/cover.jpg"
+          />
+        </div>
+        <div
+          className="feed__item-part"
+        >
+          <h2
+            className="feed__item-title"
           >
             <a
               className="feed__item-title-link"
               href="/test_1"
             >
-              <div
-                className="feed__item-meta-category-link"
-              />
+              test_1
             </a>
-          </div>
-          <time
-            className="feed__item-meta-time"
-            dateTime="سپتامبر ۱، ۲۰۱۶"
-          >
-            شهریور ۹۵
-          </time>
-        </div>
-      </div>
-      <div
-        className="feed__item-part"
-      >
-        <img
-          src="/media/covers/undefined/cover.jpg"
-        />
-      </div>
-      <div
-        className="feed__item-part"
-      >
-        <h2
-          className="feed__item-title"
-        >
-          <a
-            className="feed__item-title-link"
-            href="/test_1"
+          </h2>
+          <p
+            className="feed__item-description"
           >
             test_1
-          </a>
-        </h2>
-        <p
-          className="feed__item-description"
-        >
-          test_1
-        </p>
+          </p>
+        </div>
       </div>
-    </div>
-    <div />
+      <div />
+    </a>
   </div>
 </div>
 `;

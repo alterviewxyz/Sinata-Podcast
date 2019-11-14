@@ -294,22 +294,6 @@ exports[`Sidebar renders correctly 1`] = `
         <div
           className="ml-vertical-align-center"
         >
-          <div
-            className="subscribe-form ml-block-success"
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-          >
-            <div
-              className="form-section"
-            >
-              <p>
-                ثبت‌نام با موفقیت انجام شد!
-              </p>
-            </div>
-          </div>
           <form
             action="https://landing.mailerlite.com/webforms/submit/v1b1m4"
             className="ml-block-form"
@@ -326,6 +310,11 @@ exports[`Sidebar renders correctly 1`] = `
             <div
               className="subscribe-form"
             >
+              <p
+                className="signupdesc"
+              >
+                با عضویت در خبرنامه از تازه‌های سیناتا مطلع شوید.
+              </p>
               <div
                 className="form-section"
               >
@@ -336,7 +325,7 @@ exports[`Sidebar renders correctly 1`] = `
                     autoCapitalize="off"
                     autoComplete="email"
                     autoCorrect="off"
-                    className="form-control signup-text"
+                    className="signuptext"
                     name="fields[email]"
                     placeholder="آدرس ایمیل"
                     spellCheck="false"
@@ -348,27 +337,42 @@ exports[`Sidebar renders correctly 1`] = `
                     value="1"
                   />
                   <button
-                    className="primary signup-button"
+                    className="signupbutton"
                     type="submit"
                   >
-                    ثبت
-                  </button>
-                  <button
-                    className="loading"
-                    disabled={true}
-                    style={
-                      Object {
-                        "display": "none",
+                    <span
+                      className="loading"
+                      disabled={true}
+                      style={
+                        Object {
+                          "display": "none",
+                        }
                       }
-                    }
-                    type="button"
-                  >
-                    در حال ثبت
+                    >
+                      در حال
+                    </span>
+                    ثبت
                   </button>
                 </div>
               </div>
             </div>
           </form>
+          <div
+            className="subscribe-form ml-block-success"
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="form-section"
+            >
+              <p>
+                ثبت‌نام با موفقیت انجام شد!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

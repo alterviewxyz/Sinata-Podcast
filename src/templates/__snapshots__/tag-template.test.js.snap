@@ -297,22 +297,6 @@ exports[`TagTemplate renders correctly 1`] = `
           <div
             className="ml-vertical-align-center"
           >
-            <div
-              className="subscribe-form ml-block-success"
-              style={
-                Object {
-                  "display": "none",
-                }
-              }
-            >
-              <div
-                className="form-section"
-              >
-                <p>
-                  ثبت‌نام با موفقیت انجام شد!
-                </p>
-              </div>
-            </div>
             <form
               action="https://landing.mailerlite.com/webforms/submit/v1b1m4"
               className="ml-block-form"
@@ -329,6 +313,11 @@ exports[`TagTemplate renders correctly 1`] = `
               <div
                 className="subscribe-form"
               >
+                <p
+                  className="signupdesc"
+                >
+                  با عضویت در خبرنامه از تازه‌های سیناتا مطلع شوید.
+                </p>
                 <div
                   className="form-section"
                 >
@@ -339,7 +328,7 @@ exports[`TagTemplate renders correctly 1`] = `
                       autoCapitalize="off"
                       autoComplete="email"
                       autoCorrect="off"
-                      className="form-control signup-text"
+                      className="signuptext"
                       name="fields[email]"
                       placeholder="آدرس ایمیل"
                       spellCheck="false"
@@ -351,27 +340,42 @@ exports[`TagTemplate renders correctly 1`] = `
                       value="1"
                     />
                     <button
-                      className="primary signup-button"
+                      className="signupbutton"
                       type="submit"
                     >
-                      ثبت
-                    </button>
-                    <button
-                      className="loading"
-                      disabled={true}
-                      style={
-                        Object {
-                          "display": "none",
+                      <span
+                        className="loading"
+                        disabled={true}
+                        style={
+                          Object {
+                            "display": "none",
+                          }
                         }
-                      }
-                      type="button"
-                    >
-                      در حال ثبت
+                      >
+                        در حال
+                      </span>
+                      ثبت
                     </button>
                   </div>
                 </div>
               </div>
             </form>
+            <div
+              className="subscribe-form ml-block-success"
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+            >
+              <div
+                className="form-section"
+              >
+                <p>
+                  ثبت‌نام با موفقیت انجام شد!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -401,122 +405,130 @@ exports[`TagTemplate renders correctly 1`] = `
           className="feed"
         >
           <div>
-            <div
-              className="feed__item"
+            <a
+              href="/test_0"
             >
               <div
-                className="feed__item-part"
+                className="feed__item"
               >
                 <div
-                  className="feed__item-meta"
+                  className="feed__item-part"
                 >
                   <div
-                    className="feed__item-meta-category"
+                    className="feed__item-meta"
+                  >
+                    <div
+                      className="feed__item-meta-category"
+                    >
+                      <a
+                        className="feed__item-title-link"
+                        href="/test_0"
+                      >
+                        <div
+                          className="feed__item-meta-category-link"
+                        />
+                      </a>
+                    </div>
+                    <time
+                      className="feed__item-meta-time"
+                      dateTime="سپتامبر ۱، ۲۰۱۶"
+                    >
+                      شهریور ۹۵
+                    </time>
+                  </div>
+                </div>
+                <div
+                  className="feed__item-part"
+                >
+                  <img
+                    src="/media/covers/undefined/cover.jpg"
+                  />
+                </div>
+                <div
+                  className="feed__item-part"
+                >
+                  <h2
+                    className="feed__item-title"
                   >
                     <a
                       className="feed__item-title-link"
                       href="/test_0"
                     >
-                      <div
-                        className="feed__item-meta-category-link"
-                      />
+                      test_0
                     </a>
-                  </div>
-                  <time
-                    className="feed__item-meta-time"
-                    dateTime="سپتامبر ۱، ۲۰۱۶"
-                  >
-                    شهریور ۹۵
-                  </time>
-                </div>
-              </div>
-              <div
-                className="feed__item-part"
-              >
-                <img
-                  src="/media/covers/undefined/cover.jpg"
-                />
-              </div>
-              <div
-                className="feed__item-part"
-              >
-                <h2
-                  className="feed__item-title"
-                >
-                  <a
-                    className="feed__item-title-link"
-                    href="/test_0"
+                  </h2>
+                  <p
+                    className="feed__item-description"
                   >
                     test_0
-                  </a>
-                </h2>
-                <p
-                  className="feed__item-description"
-                >
-                  test_0
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div />
+              <div />
+            </a>
           </div>
           <div>
-            <div
-              className="feed__item"
+            <a
+              href="/test_1"
             >
               <div
-                className="feed__item-part"
+                className="feed__item"
               >
                 <div
-                  className="feed__item-meta"
+                  className="feed__item-part"
                 >
                   <div
-                    className="feed__item-meta-category"
+                    className="feed__item-meta"
+                  >
+                    <div
+                      className="feed__item-meta-category"
+                    >
+                      <a
+                        className="feed__item-title-link"
+                        href="/test_1"
+                      >
+                        <div
+                          className="feed__item-meta-category-link"
+                        />
+                      </a>
+                    </div>
+                    <time
+                      className="feed__item-meta-time"
+                      dateTime="سپتامبر ۱، ۲۰۱۶"
+                    >
+                      شهریور ۹۵
+                    </time>
+                  </div>
+                </div>
+                <div
+                  className="feed__item-part"
+                >
+                  <img
+                    src="/media/covers/undefined/cover.jpg"
+                  />
+                </div>
+                <div
+                  className="feed__item-part"
+                >
+                  <h2
+                    className="feed__item-title"
                   >
                     <a
                       className="feed__item-title-link"
                       href="/test_1"
                     >
-                      <div
-                        className="feed__item-meta-category-link"
-                      />
+                      test_1
                     </a>
-                  </div>
-                  <time
-                    className="feed__item-meta-time"
-                    dateTime="سپتامبر ۱، ۲۰۱۶"
-                  >
-                    شهریور ۹۵
-                  </time>
-                </div>
-              </div>
-              <div
-                className="feed__item-part"
-              >
-                <img
-                  src="/media/covers/undefined/cover.jpg"
-                />
-              </div>
-              <div
-                className="feed__item-part"
-              >
-                <h2
-                  className="feed__item-title"
-                >
-                  <a
-                    className="feed__item-title-link"
-                    href="/test_1"
+                  </h2>
+                  <p
+                    className="feed__item-description"
                   >
                     test_1
-                  </a>
-                </h2>
-                <p
-                  className="feed__item-description"
-                >
-                  test_1
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div />
+              <div />
+            </a>
           </div>
         </div>
         <div
