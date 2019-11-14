@@ -1,2 +1,50 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
+
+.ml-block-form {
+  padding: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-width: 0px 0px 0px 0px;
+  border-color: #bcbcbc;
+  border-radius: 5;
+  border-style: solid;
+  box-shadow: 0px 5px 35px 0px rgba(50, 50, 93, 0.17);
+}
+
+.signupdesc {
+  font-size: 0.8em;
+}
+
+.signuptext {
+  width: 100%;
+  font-size: 13px;
+  padding: 10px 10px;
+  height: auto;
+  font-family: Arial;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  color: #000000;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  clear: left;
+}
+
+.signupbutton {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #7c1f8c;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+}
