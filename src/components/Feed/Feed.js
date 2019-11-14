@@ -37,48 +37,50 @@ const Feed = ({ edges }: Props) => {
     <div className={styles['feed']}>
       {edges.map(edge => (
         <div key={edge.node.fields.slug}>
-          <div className={styles['feed__item']}>
-            <div className={styles['feed__item-part']}>
-              <div className={styles['feed__item-meta']}>
-                <div className={styles['feed__item-meta-category']}>
-                  {/* <Link to={edge.node.fields.categorySlug} className={styles['feed__item-meta-category-link']}>{edge.node.frontmatter.category}</Link>  */}
-                  {/* // fixme */}
-                  <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>
-                    <div className={styles['feed__item-meta-category-link']}>
-                      {edge.node.frontmatter.number}
-                    </div>
-                  </Link>
+          <Link to={edge.node.fields.slug}>
+            <div className={styles['feed__item']}>
+              <div className={styles['feed__item-part']}>
+                <div className={styles['feed__item-meta']}>
+                  <div className={styles['feed__item-meta-category']}>
+                    {/* <Link to={edge.node.fields.categorySlug} className={styles['feed__item-meta-category-link']}>{edge.node.frontmatter.category}</Link>  */}
+                    {/* // fixme */}
+                    <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>
+                      <div className={styles['feed__item-meta-category-link']}>
+                        {edge.node.frontmatter.number}
+                      </div>
+                    </Link>
+                  </div>
+                  {/* TODO: show it on mobile */}
+                  <time
+                    className={styles['feed__item-meta-time']}
+                    dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
+                  >
+                    {moment(edge.node.frontmatter.date).format('jMMMM jYY')}
+                  </time>
                 </div>
-                {/* TODO: show it on mobile */}
-                <time
-                  className={styles['feed__item-meta-time']}
-                  dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
-                >
-                  {moment(edge.node.frontmatter.date).format('jMMMM jYY')}
-                </time>
+              </div>
+              <div className={styles['feed__item-part']}>
+                <img src={`/media/covers/${edge.node.frontmatter.cover}/cover.jpg`} />
+              </div>
+              <div className={styles['feed__item-part']}>
+                <h2 className={styles['feed__item-title']}>
+                  <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>
+                    {edge.node.frontmatter.title}
+                  </Link>
+                </h2>
+                <p className={styles['feed__item-description']}>
+                  {edge.node.frontmatter.description}
+                </p>
+                {/* <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>مشاهده</Link> */}
               </div>
             </div>
-            <div className={styles['feed__item-part']}>
-              <img src={`/media/covers/${edge.node.frontmatter.cover}/cover.jpg`} />
-            </div>
-            <div className={styles['feed__item-part']}>
-              <h2 className={styles['feed__item-title']}>
-                <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>
-                  {edge.node.frontmatter.title}
-                </Link>
-              </h2>
-              <p className={styles['feed__item-description']}>
-                {edge.node.frontmatter.description}
-              </p>
-              {/* <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>مشاهده</Link> */}
-            </div>
-          </div>
-          <div>
-            {/* <audio controls preload="metadata">
+            <div>
+              {/* <audio controls preload="metadata">
               <source src={`/audio/${edge.node.frontmatter.cover}.mp3`} type="audio/mp3" />
             </audio> */}
-            {/* <iframe src={`https://anchor.fm/sinata/embed/episodes${edge.node.frontmatter.anchor}`} height="100%" width="100%" frameborder="0" scrolling="no"></iframe> */}
-          </div>
+              {/* <iframe src={`https://anchor.fm/sinata/embed/episodes${edge.node.frontmatter.anchor}`} height="100%" width="100%" frameborder="0" scrolling="no"></iframe> */}
+            </div>
+          </Link>
         </div>
       ))}
     </div>

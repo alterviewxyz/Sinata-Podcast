@@ -6,11 +6,11 @@
     display: grid;
     grid-template-columns: 5% 30% 65%;
     grid-template-rows: 1fr;
-    grid-template-areas: ". . .";
-    @include breakpoint-max-sm  {
+    grid-template-areas: '. . .';
+    @include breakpoint-max-sm {
       grid-template-columns: 1fr;
       grid-template-rows: 40px 1fr 1min-content;
-      grid-template-areas: "." "." ".";
+      grid-template-areas: '.' '.' '.';
       max-width: 450px;
       margin-right: auto;
       margin-left: auto;
@@ -26,7 +26,7 @@
     background-color: $color-white;
 
     &:last-child {
-      @include margin-bottom(.5);
+      @include margin-bottom(0.5);
     }
 
     &-part {
@@ -38,7 +38,6 @@
           min-height: 190px;
         }
       }
- 
     }
 
     &-title {
@@ -46,13 +45,12 @@
       @include line-height(1.5);
       @include margin-top(0);
       @include margin-bottom(0);
-      @include padding(0,0.5);
+      @include padding(0, 0.5);
 
-      @include breakpoint-max-sm  {
+      @include breakpoint-max-sm {
         text-align: center;
         @include margin-top(0.3);
       }
-
 
       &-link {
         color: $color-base;
@@ -62,16 +60,15 @@
           color: $color-base;
           border-bottom: 1px solid $color-base;
         }
-
       }
-
     }
 
     &-description {
       font-size: $typographic-base-font-size;
+      color: #222;
       @include line-height(1);
       // @include margin-bottom(.75);
-      @include padding(0,0.5);
+      @include padding(0, 0.5);
     }
 
     &-meta {
@@ -87,7 +84,7 @@
         position: absolute;
         display: block;
 
-        @include breakpoint-max-sm  {
+        @include breakpoint-max-sm {
           display: none;
         }
       }
@@ -98,11 +95,11 @@
           color: $color-white;
 
           font-size: 26px;
-          background-color:$color-secondary;
+          background-color: $color-secondary;
           height: 40px;
           text-align: center;
           line-height: 45px;
-          
+
           font-weight: 600;
           text-transform: uppercase;
 
@@ -110,11 +107,8 @@
           &:focus {
             color: $color-white;
           }
-
         }
-
       }
-
     }
 
     &-readmore {
@@ -126,9 +120,6 @@
         color: $color-primary;
         border-bottom: 1px solid $color-primary;
       }
-
     }
-
   }
-
 }
